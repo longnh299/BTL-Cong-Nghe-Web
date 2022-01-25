@@ -1,0 +1,294 @@
+html, body {
+    font-family: Aria, sans-serif;
+    height: 100%;
+    --blue: #258FF0;
+    --dark-blue-1: #217cd1;
+    --dark-blue-2: #1c67ad;
+    --grey: #E5E5E5;
+    --light-grey: #E4E4E4;
+    --black: #172B4D;
+    --placeholder-color: #909090;
+    font-size: 1vw;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 1.5vw;
+    color: var(--black);
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 1.2vw;
+}
+
+h3 {
+    font-weight: normal;
+    font-size: 1vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--black);
+}
+span {
+    margin: 0 0.5vw;
+    color: var(--black);
+    font-size: 1vw;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 0 0.5vw;
+}
+
+a:hover {
+    color: var(--grey);
+}
+
+.link-button {
+    background-color: var(--black);
+    font-weight: bold;
+    font-size: 1vw;
+    padding: 1vw 2vw;
+    border: 0px solid;
+    border-radius: 15px;
+    margin: 0vw 1.5vw;
+}
+
+.user-avatar {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.img-button {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+.nav-items {
+    margin: 0.5vw 2vw ;
+}
+
+.color-square {
+    width: 1.5vw;
+    height: 1.5vw;
+    fill: var(--black);
+    margin-right: 1vw;
+}
+
+.board-items {
+    display: flex;
+    align-items: center;
+}
+
+.work-name {
+    margin-left: 1vw;
+}
+
+.task-box {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    background-color: rgba(228, 228, 228, 0.72);
+    border-radius: 15px;
+    margin: 0.5vw 1.5vw;
+}
+
+.task-box-head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.task-box-footer {
+    display: flex;
+    align-items: center;
+    margin: 0.5vw 1vw;
+}
+
+.task {
+    margin: 0.5vw 1vw;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.task-head {
+    display: flex;
+    align-items: center;
+    margin: 0.2vw 1vw;
+    font-size: 1vw;
+}
+
+.task-body {
+    display: flex;
+    align-items: center;
+    margin: 0.2vw 1vw;
+    flex-wrap: wrap;
+}
+
+.task-date {
+    margin-left: auto;
+    color: white;
+    padding: 0.25vw;
+    border-radius: 15px;
+    background-color: var(--black);
+}
+
+.list-user-join-task {
+    margin-left: auto;
+}
+
+
+
+#nav-left {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+#nav-right {
+    display: flex;
+    align-items: center;
+    align-self: center;
+}
+
+#nav-center {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    height: 2.5vw;
+    width: 30vw;
+    border: 1px solid white;
+    border-radius: 15px;
+    background-color: white;
+}
+
+#main {
+    display: flex;
+    height: 100%;
+    flex: 1 auto;
+}
+
+#board-list {
+    width: 20%;
+}
+
+#workspace {
+    width: 80%;
+    background-color: var(--blue);
+}
+
+#workspace-head {
+    margin: 2vw;
+}
+
+#workspace-body {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw;
+    align-items: baseline;
+
+}
+
+#board-list-head {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 2vw;
+}
+
+#board-list-body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+#new-board {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#web-logo {
+    width: 3vw;
+    height: 3vw;
+}
+
+#user-avatar {
+    width: 3vw;
+    height: 3vw;
+}
+
+#web-title {
+    font-size: 3.5vw;
+    color: white;
+    margin: 0 1vw;
+}
+
+#search-icon {
+    width: 2vw;
+    height:  2vw;
+    margin-left: 0.5vw;
+}
+
+#search-bar {
+    font-size: 1vw;
+    width: 26vw;
+    border: none;
+    outline: none ;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 3vw white inset !important;
+}
+
+#logout-button {
+    font-size: 1.2vw;
+}
+
+#plus-button {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#more-board-button {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin-left: auto;
+}
+
+#delete-task-button {
+    width: 1.5vw;
+    height: 1.5vw;
+}
+
+#head-color-square {
+    width: 2vw;
+    height: 2vw;
+}
+
+#more-task-button {
+    display: flex;
+    align-items: center;
+
+}
+

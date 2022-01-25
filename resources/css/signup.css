@@ -1,0 +1,176 @@
+/*Default*/
+html, body {
+    font-family: Aria, sans-serif;
+    height:  100%;
+    --blue: #258FF0;
+    --dark-blue-1: #217cd1;
+    --dark-blue-2: #1c67ad;
+    --grey: #E5E5E5;
+    --red: #FF0000;
+    --placeholder-color: #909090;
+    font-size: 14px;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4vw;
+    margin: 2vw;
+}
+
+h2 {
+    font-size: 2vw;
+    margin: 1vw;
+}
+
+p {
+    font-size: 1vw;
+}
+
+form {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+input[type=submit] {
+    background-color: var(--blue);
+    border-radius: 50px;
+    border-color: white;
+    border-width: 0px;
+    font-size: 1vw;
+    color: white;
+    width: 7.6vw;
+    height: 2.3vw;
+}
+
+input[type=submit]:hover {
+    background-color: var(--dark-blue-1);
+}
+
+input[type=submit]:active {
+    background-color: var(--dark-blue-2);
+}
+
+/*Class*/
+.sign_up {
+    display: flex;
+    justify-content: space-between;
+    height:  100%;
+}
+
+.sign_up_form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 15%;
+    width: 25%;
+}
+
+.sign_up_extra {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    width: 50%;
+    background-color: var(--blue);
+    border-radius: 5% 50% 50% 50% / 30% 0% 0% 80%;
+
+}
+
+.input_box {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: white;
+    background-color: var(--grey);
+    height: 3vw;
+    text-align: left;
+    margin: 1vw;
+}
+
+.input_box:hover {
+    border-color: var(--blue);
+}
+
+.isvalid {
+    border-color:var(--red);
+}
+
+.danger {
+    color: var(--red);
+    font-size:1vw;
+}
+
+.web_name {
+    color: var(--blue);
+    text-align: center;
+}
+
+.form_name {
+    text-align: center;
+}
+
+.form_icon {
+    width: 1.5vw;
+    height: 1.5vw;
+    margin: 1.5vw;
+}
+
+.input_bar {
+    width: 75%;
+    box-sizing:border-box;
+    font-size: 1vw;
+    background-color: var(--grey);
+    outline: none;
+    padding: none;
+    border:  none;
+}
+
+.input_bar::placeholder {
+    font-family: Roboto, sans-serif;
+    font-size: 1vw;
+    color: var(--placeholder-color) ;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 3vw var(--grey) inset !important;
+}
+
+.sign_in_link {
+    align-self: center;
+    display: block;
+    color: white;
+    font-size: 0.75vw;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 2px;
+    margin-top: 15%;
+    padding: 0.5em 1.5vw ;
+    font-weight: bold;
+}
+
+.sign_in_link:active {
+    color: var(--grey);
+    border-color: var(--grey);
+}
+
+/*Id*/
+#ques_acc {
+    color: white;
+    font-weight: normal;
+    align-self: center;
+}
+
+.background_pic {
+    align-self: flex-start;
+    margin-top: auto;
+    height: 50%;
+    width: 75%;
+}
