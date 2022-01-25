@@ -1,6 +1,6 @@
 #Các bước cài đặt dự án :
 
-Clone Project :git clone https://gitlab.com/soict-it4409/20211/nhom14/lala.git
+Clone Project :git clone https://github.com/longnh299/lala.git
 
 1. Load dependency từ composer.json : composer install
 2. Tạo file .env ,copy file .env.example sang .Cấu hình file .env phù hợp với DB
