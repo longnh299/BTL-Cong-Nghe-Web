@@ -32,5 +32,13 @@ Clone Project :git clone https://github.com/longnh299/lala.git
 * resource/views/pages: Các page Html của trang web
 * public/images: Chứa các file .svg hoặc .png (Lưu ý sử dụng "{{asset("a/b/c")}}") ~ cd ->file "public/a/b/c"
 
+##Preview
+
+### 1. Login screen
+<img src="https://user-images.githubusercontent.com/45144876/169958469-15b3e079-5aa6-4688-9bfa-e7b739f075d1.png" alt ="login-screen" width="600"/>
+### 2. Register screen
+<img src="https://user-images.githubusercontent.com/45144876/169959385-37a67673-2129-4715-9474-d98f3b71c050.png" alt="register-screen" width="600"/>
+
+
 
 
