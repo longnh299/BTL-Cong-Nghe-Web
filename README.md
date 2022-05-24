@@ -31,3 +31,7 @@ Clone Project :git clone https://github.com/longnh299/lala.git
 * resource/views/layout: layout Html cho trang web
 * resource/views/pages: Các page Html của trang web
 * public/images: Chứa các file .svg hoặc .png (Lưu ý sử dụng "{{asset("a/b/c")}}") ~ cd ->file "public/a/b/c"
+# một số hình ảnh!
+[vmo](https://user-images.githubusercontent.com/45144876/169952026-ffa8956c-07ca-42c8-b2ac-2abd9902c43b.jpg)
+
+
